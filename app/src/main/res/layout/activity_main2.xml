@@ -6,4 +6,19 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAIN ACTIVITY 2"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="375dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
